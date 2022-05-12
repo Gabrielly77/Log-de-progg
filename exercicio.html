@@ -1,0 +1,39 @@
+<meta charset ="UTF-8">
+
+<script>
+	
+	function pulaLinha(){
+		document.write("<br><br>");
+	}
+
+	function mostra(frase){
+		document.write(frase);
+		pulaLinha();	
+	}
+
+	var limite = parseInt(prompt("Entre com o número limite"));
+	var numeros = 30;
+
+	//while significa repetição, nunca coloque 'true', porquê buga a máquina.
+	
+	while(numeros <= limite){
+		mostra("numeros: " + numeros);
+		numeros = numeros + 4;
+	}
+	if(numero >= 30){
+		mostra("validos");
+	}else{
+		mostra("invalidos");
+		mostra("Fine");
+	
+	}
+
+	
+
+
+
+
+
+
+
+	</script>
